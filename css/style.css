@@ -1,0 +1,48 @@
+body {
+    background-color: #b7c2cd;
+}
+
+.topnav {
+    background-color: #e1dd5b;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    margin: 80px;
+}
+
+.section {
+    display: grid;
+    max-height: 500px;
+    grid-template-columns: 100px f1 f1 100px;
+    grid-template-rows: 500px;
+    grid-column-gap: 50px;
+}
+
+.leftdiv {
+    grid-column: 2 / span 1;
+    grid-row: 1;
+    margin: 10px;
+}
+
+.rightdiv {
+    grid-column: 3 / span 1;
+    grid-row: 1;
+}
+
+footer {
+    background-color: #e1dd5b;
+}
