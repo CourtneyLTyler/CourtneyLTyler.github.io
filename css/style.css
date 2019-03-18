@@ -148,35 +148,56 @@ h2 {
   text-align: center;
 }
 
-/* / about page */
+/* end about page */
+/* start work page  */
 
-
-.topnav {
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    color: #fcff42;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.topnav a:hover {
+#work {
+    background-image: url("../img/work1.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
     color: white;
-}
-
-.active {
-    color: white;
-}
-
-.topnav .icon {
-    display: none;
-
+    text-shadow: 0.125em 0.125em 0.25em #000000;
   }
+  
+  .work-header {
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 3em;
+      padding-bottom: 3em;
+  }
+  
+  .work-pics {
+      padding-bottom: 10em;
+  }
+  
+  .work-img {
+    display: block; 
+    margin: auto; 
+    max-width: 200px; 
+    position: relative; 
+  }
+  
+  .info {
+    position: absolute; 
+    top: 15%; 
+    left: 22%;
+    color: #fff;
+    font-family: Futura;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    line-height: 1.6;
+    display: none;
+  }
+  
+  .proj-title {
+    font-weight: 100;
+  }
+  /* end work page */
+
+
+
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
