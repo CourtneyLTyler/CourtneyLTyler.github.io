@@ -7,13 +7,25 @@
       <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
     <script src="js/reset_form.js"></script>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     
     <!--navbar starts-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -49,6 +61,101 @@
         </div><!-- / nav collapse-->
       </div><!-- / nav container-->
     </nav><!--end navbar-->
+
+    <div class="container-fluid anchor" id="home">
+      <div class="picture-viewer"><!--changed from container-fluid-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/dc5.jpeg" alt="cherry blossoms">
+              <div class="carousel-caption">
+                Courtney Tyler : Web Developer : DC
+              </div><!--end carosel-caption-->
+            </div><!--end item active-->
+
+            <div class="item">
+              <img src="img/dc7.jpeg" alt="cherry blossoms">
+              <div class="carousel-caption">
+                Courtney Tyler : Full-Stack : Pianist
+              </div><!--end carousel-caption-->
+            </div><!--end item-->
+
+            <div class="item">
+              <img src="img/dc10.jpeg" alt="dc monument">
+              <div class="carousel-caption">
+                Courtney Tyler : Coder : Unicorn
+              </div><!--end carousel-caption-->
+            </div><!--end item-->
+
+            <div class="item">
+              <img src="img/dc9.jpeg" alt="dc monument">
+              <div class="carousel-caption">
+                Courtney Tyler : Front/Back-End : <span class="glyphicon glyphicon-music"></span> Shows <span class="glyphicon glyphicon-music"></span>
+              </div><!--end carousel-caption-->
+            </div><!--end item-->
+          </div><!--end carousel-inner-->
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div><!--end carousel-example-generic-->
+      </div><!--end picture-viewer-->
+
+      
+      <!-- Start About Page -->
+
+      <div class="container-fluid anchor" id="about">
+        <div class="header" id="about-header">
+          <h1><span class="glyphicon glyphicon-heart-empty"></span>          About Me          <span class="glyphicon glyphicon-heart-empty"></span></h1>
+        </div><!--end header-->
+
+        <div class="about-cont">
+          <div class="row">
+            <div class="col-md-4" id="profile">
+              <img src="img/profile1.jpg" alt="profile picture">
+            </div><!--/col-->
+
+            <div class="col-md-4" id="intro-col">
+              <h2>Introduction</h2>
+              <p>My name is Courtney Tyler.  I have a passion for developing awesome * cool-looking * functional * user-friendly * websites!</p>
+            </div><!--/col-->
+
+            <div class="col-md-4" id="skill-col">
+              <h2>My Skills</h2>
+              <div id="skill-list">
+                <ul>
+                  <li>Problem-solving</li>
+                  <li>Analyzing information</li>
+                  <li>Demonstrating Professionalism</li>
+                  <li>Communication</li>
+                  <li>Easy to work with</li>
+                </ul>
+              </div><!--/skill-list-->
+            </div><!--/col-->
+          </div><!--/row-->
+
+          <div class="main-text">
+            <h2>My Story</h2>
+            <p>As a Board Certified Behavior Analyst (for nearly ten years) I worked with adults and children with disabilities and behavioral challenges to provide treatment programs and training to individuals and their teams.  During this time I sharpened my problem-solving abilities and communication skills, advanced my analytical skills, and gained many other values that are an asset to any profession.  I am excited to bring my skills and passion to my new career of Web Development.</p>
+          </div><!--end main text-->
+        </div><!-- /about-cont -->
+      </div><!--/container and about-page -->
 
     <header>
       <div class="header-text">
@@ -123,8 +230,9 @@
     </div><!--/section3-->
 
     <footer>
-      <p>copyright by your friendly GA developer</p>
+      <p>copyright COURTNEYT<span class="glyphicon glyphicon-heart-empty"></span>LER</p>
     </footer>
-
+    <!-- rotate hero images - core JS bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
