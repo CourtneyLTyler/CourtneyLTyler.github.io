@@ -175,6 +175,7 @@ h2 {
     display: block; 
     margin: auto; 
     max-width: 200px; 
+    max-height: 200px;
     position: relative; 
   }
   
@@ -196,7 +197,79 @@ h2 {
   }
   /* end work page */
 
+/* start contact page */
 
+#contact {
+	background-image: url("../img/contact2.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+  text-shadow: 0.125em 0.125em 0.25em #000000;
+  padding-top: 4.533em;
+  padding-bottom: 5em;
+}
+
+.phone,
+.email,
+.linked {
+	text-align: center;
+	padding-bottom: 2em;
+	padding-top: 3em;
+}
+
+#contact
+h1 {
+	position: relative;
+	width: 100%;
+	text-align: center;
+  font-weight: bold;
+}
+
+#contact
+p {
+	padding-top: 1.25em;
+}
+
+.form-control {
+  width: 260px;
+  max-width: 260px;
+  margin-left: 7em;
+}
+
+form {
+  margin-top: 5em;
+  display: inline-block;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 80%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive
+iframe{
+    left:7em;
+    top:5em;
+    height:80%;
+    width:60%;
+    position: absolute;
+    max-width: 260px;
+    max-height: 350px;
+}
+
+label {
+  margin-left: 7em;
+}
+
+#submit {
+  margin-left: 7em;
+  margin-top: 2em;
+}
+
+/* end contact page */
 
 
 
