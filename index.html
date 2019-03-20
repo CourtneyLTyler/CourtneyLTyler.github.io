@@ -1,253 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CourtsPage</title>
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- connect stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- add google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <!-- connect fontawesome -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
-  </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CourtsPage</title>
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- connect stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- add google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+	</head>
 
-  <body data-spy="scroll" data-target=".navbar">
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    
-    <!--navbar starts-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse"
-          data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
+	<body>
+		<!--navbar starts-->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
 
-          <a class="CourtneyT navbar-brand" href="#home">COURTNEYT<span class="glyphicon glyphicon-heart-empty"></span>LER</a>
-          <!--end CourtneyT -->
-        </div><!--/navbar-header-->
+					<a class="CourtneyT navbar-brand" href="#home">COURTNEYT<span class="glyphicon glyphicon-heart-empty"></span>LER</a>
+				</div><!--end navbar-header-->
 
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#work">WORK</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul><!-- / navbar -->
-        </div><!-- / nav collapse-->
-      </div><!-- / nav container-->
-    </nav><!--end navbar-->
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#work">WORK</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul><!--end navbar -->
+				</div><!--end nav collapse-->
+			</div><!--end container fluid-->
+		</nav><!--end navbar-->
 
-    <div class="container-fluid anchor" id="home">
-      <div class="picture-viewer"><!--changed from container-fluid-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          </ol>
+		<!--begin carousel-->
+		<div class="container-fluid anchor" id="home">
+			<div class="picture-viewer">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					</ol>
 
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="img/dc5.jpeg" alt="cherry blossoms">
-              <div class="carousel-caption">
-                Courtney Tyler : Web Developer : DC
-              </div><!--end carosel-caption-->
-            </div><!--end item active-->
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/dc5.jpeg" alt="cherry blossoms">
+							<div class="carousel-caption">
+								Courtney Tyler : Web Developer : DC
+							</div><!--end carosel-caption-->
+						</div><!--end item active-->
 
-            <div class="item">
-              <img src="img/dc7.jpeg" alt="cherry blossoms">
-              <div class="carousel-caption">
-                Courtney Tyler : Full-Stack : Pianist
-              </div><!--end carousel-caption-->
-            </div><!--end item-->
+						<div class="item">
+							<img src="img/dc7.jpeg" alt="cherry blossoms">
+							<div class="carousel-caption">
+								Courtney Tyler : Full-Stack : Pianist
+							</div><!--end carousel-caption-->
+						</div><!--end item-->
 
-            <div class="item">
-              <img src="img/dc10.jpeg" alt="dc monument">
-              <div class="carousel-caption">
-                Courtney Tyler : Coder : Unicorn
-              </div><!--end carousel-caption-->
-            </div><!--end item-->
+						<div class="item">
+							<img src="img/dc10.jpeg" alt="dc monument">
+							<div class="carousel-caption">
+								Courtney Tyler : Coder : Unicorn
+							</div><!--end carousel-caption-->
+						</div><!--end item-->
 
-            <div class="item">
-              <img src="img/dc9.jpeg" alt="dc monument">
-              <div class="carousel-caption">
-                Courtney Tyler : Front/Back-End : <span class="glyphicon glyphicon-music"></span> Live Music <span class="glyphicon glyphicon-music"></span>
-              </div><!--end carousel-caption-->
-            </div><!--end item-->
-          </div><!--end carousel-inner-->
+						<div class="item">
+							<img src="img/dc9.jpeg" alt="dc monument">
+							<div class="carousel-caption">
+								Courtney Tyler : Front/Back-End : Live Music <span class="glyphicon glyphicon-music"></span>
+							</div><!--end carousel-caption-->
+						</div><!--end item-->
+					</div><!--end carousel-inner slide wrapper-->
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
 
-          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div><!--end carousel-example-generic-->
-      </div><!--end picture-viewer-->
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div><!--end carousel-example-generic-->
+			</div><!--end picture-viewer-->
+		</div><!--end home containter-fluid -->
+			
 
-      
-      <!-- Start About Page -->
+		<!-- Start About Page -->
+		<div class="container-fluid anchor" id="about">
+			<div class="header" id="about-header">
+				<h1><span class="glyphicon glyphicon-heart-empty"></span> About Me  <span class="glyphicon glyphicon-heart-empty"></span></h1>
+			</div><!--end header-->
 
-      <div class="container-fluid anchor" id="about">
-        <div class="header" id="about-header">
-          <h1><span class="glyphicon glyphicon-heart-empty"></span>          About Me          <span class="glyphicon glyphicon-heart-empty"></span></h1>
-        </div><!--end header-->
+			<div class="about-cont">
+				<div class="row">
+					<div class="col-md-4" id="profile">
+						<img src="img/profile1.jpg" alt="profile picture">
+					</div><!--/col-->
 
-        <div class="about-cont">
-          <div class="row">
-            <div class="col-md-4" id="profile">
-              <img src="img/profile1.jpg" alt="profile picture">
-            </div><!--/col-->
+					<div class="col-md-4" id="intro-col">
+						<h2>Intro</h2>
+						<p>I am an observant, hard-working, and flexible full-stack web developer who values learning opportunities and supportive culture. My previous experiences as behavior analyst and program manager inform my ability to adapt to demanding situations and find solutions to challenging problems.</p>
+					</div><!--end intro-col-->
 
-            <div class="col-md-4" id="intro-col">
-              <h2>Introduction</h2>
-              <p>I am an observant, hard-working, and flexible full-stack web developer who values learning opportunities and supportive culture. My previous experiences as behavior analyst and program manager inform my ability to adapt to demanding situations and find solutions to challenging problems.</p>
-            </div><!--/col-->
+					<div class="col-md-4" id="skill-col">
+						<h2>Skills</h2>
+						<div id="skill-list">
+							<p>HTML  :  CSS  :  JavaScript  :  Express  :  React  : Python  :  Django  :  Ruby on Rails  :  Mongoose  :  Postgres  :  AJAX  :  Node  :  GitHub  </p>
+						</div><!--end skill-list-->
+					</div><!--end skill-col-->
+				</div><!--/row-->
 
-            <div class="col-md-4" id="skill-col">
-              <h2>Skills</h2>
-              <div id="skill-list">
-                <ul>
-                  <li>JavaScript</li>
-                  <li>Express</li>
-                  <li>React</li>
-                  <li>Python</li>
-                  <li>Django</li>
-                  <li>Ruby on Rails</li>
-                </ul>
-              </div><!--/skill-list-->
-            </div><!--/col-->
-          </div><!--/row-->
-
-          <div class="main-text">
-            <h2>My Story</h2>
-            <p>As I began coding online through free programs such as Codecademy, I realized that I had found a field that combines analytics, logic, and problem-solving to create products out of ideas.  As a Behavior Analyst for nearly a decade, I acquired problem-solving abilities, communication skills, and analytical skills which are an asset to this profession.  I went on to complete two Full Stack Web Development programs (CareerFoundry and General Assembly) and I am excited to bring my skills and passion to my new career of Web Development.</p>
-          </div><!--end main text-->
-        </div><!-- /about-cont -->
-    </div><!--/container and about-page -->
-
-    <!-- Start Work Page -->
-
-    <div class="container-fluid anchor" id="work">
-      <div class="work-header">
-        <h1>Work</h1>
-      </div><!--end work-header -->
-
-      <div class="work-pics">
-        <div class="row" id="work-row">
-
-        </div><!--end row-->
-      </div><!--/work-pics-->
-
-      <!-- <div class="embed-responsive embed-responsive-16by9 video-responsive">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VOAtYAtcbAU">
-        </iframe>
-      </div>end video -->
-      
-      <div class='embed-container'><iframe src='https://www.youtube.com/embed/VOAtYAtcbAU' frameborder='0' allowfullscreen></iframe></div>
-
-    </div><!-- /container-fluid and work page -->
+				<div class="main-text">
+					<h2>My Story</h2>
+					<p>As I began coding online through free programs such as Codecademy, I realized that I had found a field that combines analytics, logic, and problem-solving to create products out of ideas.  As a Behavior Analyst for nearly a decade, I acquired problem-solving abilities, communication skills, and analytical skills which are an asset to this profession.  I went on to complete two Full Stack Web Development programs (CareerFoundry and General Assembly) and I am excited to bring my skills and passion to my new career of Web Development.</p>
+				</div><!--end main text-->
+			</div><!--end about-cont -->
+		</div><!--end container and about-page -->
 
 
-    <!--start contact page-->
+		<!-- Start Work Page -->
 
-    <div class="container-fluid anchor" id="contact">
+		<div class="container-fluid anchor" id="work">
+			<div class="work-header">
+				<h1>Work</h1>
+			</div><!--end work-header -->
 
-      <div class="header">
-        <h1>Let's link up!</h1>
-      </div><!--end header-->
+			<div class="work-pics">
+				<div class="row" id="work-row">
+				</div><!--end row-->
+			</div><!--end work-pics-->
+			<h2 class='cd-demo'>Demo of ConcertDiary App</h2>
+			<div class='embed-container'>
+				<iframe src='https://www.youtube.com/embed/VOAtYAtcbAU' frameborder='0' allowfullscreen></iframe>
+			</div><!--end video-->
 
-
-      <div id="contactinfo" class="row">
-        <div class="phone col-md-4 col-sm-4 col-xs-12">
-          <h2>Call me</h2>
-          <p><span class="glyphicon glyphicon-phone-alt"></span>540.270.1153</p>
-        </div><!--end phone-->
-
-        <div class="email col-md-4 col-sm-4 col-xs-12">
-          <h2>Email me</h2>
-          <p><span class="glyphicon glyphicon-envelope"></span>courtneytyler7@gmail.com</p>
-        </div><!--end email-->
-
-        <div class="linked col-md-4 col-sm-4 col-xs-12">
-          <h2>Look me up</h2>
-          <span class="glyphicon glyphicon-search"></span>
-          <a href="https://www.linkedin.com/in/courtney-tyler"><img src="img/LinkedIn.png" alt="LinkedIn image"></a>
-        </div><!--end linked-->
-      </div><!--end contact info-->
-
-      <div id="contactform" class="row">
-
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <form>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
-            </div><!--/form-group-->
-
-            <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="number" class="form-control" id="phone" placeholder="Enter your phone number">
-            </div><!-- / form-group -->
-
-            <div class="form-group">
-              <label for="email">*Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required="required">
-            </div><!--/form-group-->
-
-            <label for="message-box">*Message</label>
-            <textarea style="resize:none" cols="40" rows="5" class="form-control" id="message-box" placeholder="Enter your message" required="required"></textarea>
-            <p id="char-count"></p>
-            <button type="submit" id="submit" class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Send Info">Submit &raquo;</button>
-            <p id="#visible-comment"></p>
-          </form>
-        </div> <!-- / col-->
-
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="map-responsive">
-            <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJY1c_ewa4t4kR4c2FvaHdjU4&key=AIzaSyADRCgQHiXYDu03x6DkbhE51UJ5hSK_lRA" allowfullscreen></iframe>
-          </div><!-- / map -->
-        </div><!-- end col -->
-      </div> <!--end contactform -->
-    </div><!--/container-fluid and contact-page-->
+		</div><!--end container-fluid and work page -->
 
 
-    <footer>
-      <p>copyright COURTNEYT<span class="glyphicon glyphicon-heart-empty"></span>LER 2018</p>
-    </footer>
-    <!--below is JQuery link-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- rotate hero images - core JS bootstrap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADRCgQHiXYDu03x6DkbhE51UJ5hSK_lRA&callback=initMap">
-</script>
-  </body>
+		<!--Start Contact Page-->
+
+		<div class="container-fluid anchor" id="contact">
+			<div class="header">
+				<h1>Contact</h1>
+			</div><!--end header-->
+
+			<div id="contactinfo" class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 contactcol">
+						<h2 class='contact-detail'><span class="glyphicon glyphicon-phone-alt"></span> 540.270.1153</h2>
+
+						<h2 class='contact-detail'><span class="glyphicon glyphicon-envelope"></span> courtneytyler7@gmail.com</h2>
+
+						<h2><span class="glyphicon glyphicon-search"></span>
+						<a href="https://www.linkedin.com/in/courtney-tyler"><img src="img/LinkedIn.png" alt="LinkedIn image"></a></h2>
+
+				</div> <!--end contactcol-->
+
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mapcol">
+					<div class="map-responsive">
+						<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12417.825715276536!2d-77.01199673738542!3d38.913543938168175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b81d46d97257%3A0x66dd624a26a430f2!2sEckington%2C+Washington%2C+DC+20001!5e0!3m2!1sen!2sus!4v1553059453481"allowfullscreen></iframe>
+					</div><!--end map responsive-->
+				</div><!--end mapcol -->
+			</div> <!--end contactinfo -->
+		</div><!--end container-fluid and contact-page-->
+
+		<footer>
+		<p>copyright COURTNEYT<span class="glyphicon glyphicon-heart-empty"></span>LER 2018</p>
+		</footer>
+		
+		<!--below is JQuery link-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- rotate hero images - core JS bootstrap -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADRCgQHiXYDu03x6DkbhE51UJ5hSK_lRA&callback=initMap">
+		</script>
+	</body>
 </html>

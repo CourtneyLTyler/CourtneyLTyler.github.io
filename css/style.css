@@ -3,8 +3,8 @@ html,
 body {
     height: 100%;
     width: 100%;
-    /* background-color: rgb(179,181,208); */
     background-color: rgb(185,191,207);
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -24,89 +24,67 @@ h1 {
 	color: white;
 }
 
-#home {
-  font-family: 'Raleway', sans-serif;
-}
-
 #homerow {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  	margin-top: 40px;
+  	margin-bottom: 20px;
 }
 
 .carousel {
-  margin-left: -0.938em;
-  margin-right: -0.938em;
+  	margin-left: -0.938em;
+  	margin-right: -0.938em;
 }
 
 .carousel-caption {
 	font-size: 3em;
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial;
-  text-shadow: 0.125em 0.125em 0.25em #000000;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	bottom: initial;
+  	text-shadow: 0.125em 0.125em 0.25em #000000;
 }
 
 .item {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  	-webkit-transform-style: preserve-3d;
+  	-moz-transform-style: preserve-3d;
+  	transform-style: preserve-3d;
+}
+
+.navbar-header a {
+	font-size: 1.5em;
 }
 
 a:visited {
-  color: #ff1a75
+  	color: #ff1a75
 }
 
 .glyphicon-heart-empty:hover {
-  color: #ff1a75
+  	color: #ff1a75
 }
 
 
 /* end navbar and carousel */
 /* start about page */
 
+
 #about {
     padding-bottom: 20px;
+    line-height: 2em;
 }
 
 #about-header
 h1 {
-	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	padding-top: 3em;
-    margin-top: 0;
-    color: white;
-    transform: translateY(-50%);
-    bottom: initial;
-    text-shadow: 0.125em 0.125em 0.25em #000000;
-}
-
-#about-header {
-	display: block;
-  top: 0;
-	max-width: 100%;
-  height: 131px;
-  background-image: url(../img/dccrop.jpg);
-	background-size: cover;
-  margin-left: -0.938em;
-  margin-right: -0.938em;
-}
-
-#about
-h2,
-h3 {
-	font-family: 'Raleway', sans-serif;
-}
-
-#skill-list
-li {
-	text-align: left;
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.15em;
+  	margin-top: 0;
+  	color: white;
+  	transform: translateY(-50%);
+  	bottom: initial;
+  	text-shadow: 0.125em 0.125em 0.25em #000000;
 }
 
 #skill-list {
-  padding-top: 1.75em;
-  padding-left: 30%;
+  	padding-top: 1.75em;
+  	line-height: 2em;
+  	font-size: 1.25em;
 }
 
 #about
@@ -124,15 +102,13 @@ img {
 	border-radius: 50%;
 	max-width: 75%;
 	max-height: 75%;
-	/*padding-left: 1.75em;*/
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  	display: block;
+  	margin-right: auto;
+  	margin-left: auto;
 }
 
 .main-text
 p {
-	font-family: 'Roboto Slab', serif;
 	font-size: 1.15em;
 	padding-bottom: 3.125em;
 }
@@ -145,13 +121,12 @@ h2 {
 #intro-col
 p {
 	font-size: 1.15em;
-	font-family: 'Roboto Slab', serif;
 	padding-top: 1.75em;
 }
 
 #intro-col
 h2 {
-  text-align: center;
+  	text-align: center;
 }
 
 /* end about page */
@@ -161,58 +136,72 @@ h2 {
     background-image: url("../img/work1.jpeg");
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Raleway', sans-serif;
     color: white;
-    text-shadow: 0.125em 0.125em 0.25em #000000;
+	text-shadow: 0.125em 0.125em 0.25em #000000;
+	background-color: rgba(0, 0, 0, 0.5);
   }
   
-  .work-header {
-      text-align: center;
-      text-transform: uppercase;
-      padding-top: 3em;
-      padding-bottom: 3em;
-  }
+.work-header {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
   
-  .work-pics {
-      padding-bottom: 10em;
-  }
+.work-pics {
+	padding-bottom: 5%;
+	padding-top: 10%;
+}
   
-  .work-img {
-    display: block; 
-    margin: auto; 
-    max-width: 200px; 
-    max-height: 200px;
-    position: relative; 
-  }
+.work-img {
+	display: block; 
+	margin: auto; 
+	max-width: 200px; 
+	max-height: 200px;
+	position: relative; 
+}
   
-  .info {
-    position: absolute; 
-    top: 15%; 
-    left: 22%;
-    color: #fff;
-    font-family: Futura;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5em;
-    line-height: 1.6;
-    display: none;
-  }
-  
-  .proj-title {
-    font-weight: 100;
-  }
+.info {
+	position: absolute; 
+	top: 15%; 
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	display: none;
+	font-size: 1.5em;
+}
 
-  .embed-container { 
+.project-info {
+	line-height: 1.5em;
+}
+
+.embed-container { 
     position: relative; 
     padding-bottom: 56.25%; 
     height: 0; 
     overflow: hidden; 
-    max-width: 100%; } 
+	max-width: 100%; 
+} 
+
+.cd-demo {
+	text-align: center;
+	padding-bottom: 10px;
+}
     
-  .embed-container iframe, .embed-container object, .embed-container embed { 
-    position: absolute; top: 0; left: 15%; width: 70%; height: 70%; 
-  }
-  /* end work page */
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 15%; 
+	width: 70%; 
+	height: 70%; 
+}
+
+
+/* end work page */
 
 /* start contact page */
 
@@ -221,15 +210,16 @@ h2 {
 	background-attachment: fixed;
 	background-size: cover;
 	color: white;
-	font-family: 'Raleway', sans-serif;
-  text-shadow: 0.125em 0.125em 0.25em #000000;
-  padding-top: 4.533em;
-  padding-bottom: 5em;
+	text-shadow: 0.125em 0.125em 0.25em #000000;
+	padding-top: 4.533em;
+	padding-bottom: 5em;
 }
 
-.phone,
-.email,
-.linked {
+#contactinfo {
+	margin-top: 8%;
+}
+
+.contactcol {
 	text-align: center;
 	padding-bottom: 2em;
 	padding-top: 3em;
@@ -240,23 +230,18 @@ h1 {
 	position: relative;
 	width: 100%;
 	text-align: center;
-  font-weight: bold;
+	font-weight: bold;
 }
 
 #contact
-p {
+h2 {
 	padding-top: 1.25em;
 }
 
 .form-control {
-  width: 260px;
-  max-width: 260px;
-  margin-left: 7em;
-}
-
-form {
-  margin-top: 5em;
-  display: inline-block;
+	width: 260px;
+	max-width: 260px;
+	margin-left: 7em;
 }
 
 .map-responsive {
@@ -277,17 +262,10 @@ iframe{
     max-height: 350px;
 }
 
-label {
-  margin-left: 7em;
-}
-
-#submit {
-  margin-left: 7em;
-  margin-top: 2em;
-}
-
 /* end contact page */
 
-
+footer {
+	font-size: 1.25em;
+}
 
 
