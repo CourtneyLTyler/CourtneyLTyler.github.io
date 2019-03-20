@@ -235,7 +235,7 @@ h1 {
 }
 
 #contact
-h2 {
+h2, h3 {
 	padding-top: 1.25em;
 }
 
@@ -252,15 +252,20 @@ h2 {
     height: 0;
 }
 
+.mapcol h4{
+	margin-left: 28%;
+	margin-top: 10%;
+}
+
 .map-responsive
 iframe{
-    left:7em;
-    top:5em;
+	top:3em;
+	margin-left: 25%;
     height:80%;
     width:60%;
     position: absolute;
-    max-width: 260px;
-    max-height: 350px;
+    max-width: 400px;
+    max-height: 450px;
 }
 
 /* end contact page */

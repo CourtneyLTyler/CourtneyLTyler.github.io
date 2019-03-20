@@ -19,7 +19,7 @@ $(document).ready(function(){
     var works = [
         {
             title: "Towers of Hanoi",
-            pic: "img/towers250.png",
+            pic: "img/towers250zoomout.png",
 			link: "https://courtneyltyler.github.io/GA-three-towers/",
 			info: "Towers of Hanoi: Strategy game created with HTML, CSS, and JavaScript"
         },
