@@ -36,10 +36,10 @@ $(document).ready(function(){
 			info: "DevBook: Full-Stack Social Media Application utilizing Mongoose, Express, React, Node"
         },
         {
-            title: "Coming Soon!",
-            pic: "img/work6.jpeg",
-			link: "#",
-			info: "Scheduler: Full-Stack Scheduling Application utilizing Python, Django, Postgresql, React"
+            title: "Scheduler",
+            pic: "img/scheduler250.png",
+			link: "http://scheduler12345.surge.sh/",
+			info: "In Progress - Scheduler: Full-Stack Scheduling Application utilizing Python, Django, Postgresql, React"
         }
     ];
 
